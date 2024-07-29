@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>User Data Management</title>
+    <link rel="stylesheet" href="situatie-scolara.css" />
+  </head>
+  <body>
+    <h1>Situatie scolara</h1>
+    <div id="Container">
+      <label for="nameInput"> Nume: </label>
+      <input type="text" id="nameInput" placeholder="Introduceti numele" />
+      <label for="NicknameInput"> Prenume: </label>
+      <input
+        type="NicknameInput"
+        id="NicknameInput"
+        placeholder="Introduceti prenumele"
+      />
+      <label for="numberInput"> Nota acordata: </label>
+      <input type="number" id="numberInput" placeholder="Introduceti nota" />
+      <br />
+      <button onclick="addData()">Adauga</button>
+    </div>
+
+    <table id="outputTable" class="table">
+      <tr>
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Mobile Details</th>
+      </tr>
+      <script src="situatie-scolara.js" class="table"></script>
+    </table>
+  </body>
+</html>
